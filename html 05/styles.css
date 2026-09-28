@@ -1,0 +1,60 @@
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: rgb(245, 245, 245);
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #1a73e8;  /* bright blue*/
+      font-size: 50px; 
+      font-weight: 700;
+      text-align: center;
+    }
+
+    a {
+  color: #1a73e8;
+  text-decoration: none;
+    }
+
+    nav a {
+  font-weight: bold;
+  margin-right: 16px;
+    }
+
+    p {
+      color: #202124;  /* dark gray text */
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    table, th, td {
+  border: 1px solid #202124;
+  border-collapse: collapse;  /* merge double lines into single lines */
+  padding: 8px;
+    }
+
+th {
+  background-color: #1a73e8;
+  color: white;
+}
+
+#prices td {
+  text-align: center;
+}
+
+    .highlight {
+      background-color: #fff3cd;  /* light yellow */
+      color: #856404;  /* dark brown */
+      font-weight: bold;
+      padding: 10px;
+      border-left: 4px solid #ffc107;
+    }
+
+    #footer {
+      background-color: #202124;  /* dark gray */
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+}

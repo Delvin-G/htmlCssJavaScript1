@@ -5,22 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Styled Page</title>
 
-  <style>
-    /* Internal stylesheet */
-    h1 {
-       font-size: 42px; 
-    }
-
-    p {
-      color: #333333;
-      font-size: 16px;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header>
-    <h1 style="color: blue;">Welcome to CSS!</h1>
+    <h1>Welcome to CSS!</h1>
     <nav>
       <a href="#methods">Methods</a>
       <a href="#prices">Prices</a>
@@ -28,9 +19,12 @@
   </header>
 
   <p id="methods">This page demonstrates three CSS methods.</p>
-  <p class="highlight" style="background-color:green;">This paragraph should stand out.</p>
+
+  <p class="highlight">This paragraph should stand out.</p>
+
   <p>Learn more in <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">the MDN CSS guide</a>.</p>
-  <p style="color:azure; background-color: navy">Light text on dark background</p>
+  
+  <p>Light text on dark background</p>
 
   <table id="prices">
     <caption>Snack Prices</caption>
