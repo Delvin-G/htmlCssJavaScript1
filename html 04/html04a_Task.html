@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery Task</title>
+</head>
+<body>
+
+  <h1>Image Gallery Task</h1>
+  <p>Practice adding images with alt text, captions, and sizing.</p>
+
+  
+       
+  <section id="basic-images">
+    <h2>Basic Images with Alt Text</h2>
+    <p>All images must have descriptive alt text for accessibility.</p>
+
+    <img src="images/nature-scene-1.jpg" 
+       alt="A scenic mountain landscape with clear blue sky"
+       width="300" height="200">
+
+    <img src="images/nature-scene-2.jpg"
+         alt="Forest path lined with tall evergreen trees"
+         width="300"
+         height="200">
+  </section>
+
+  <section id="figures">
+    <h2>Figures with Captions</h2>
+    <p>Use <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> for semantic image structure.</p>
+
+    <figure>
+    <img src="images/product-photo.jpg"
+       alt="Professional camera with telephoto lens"
+       width="400"
+       height="300">
+       <figcaption>High-end photography equipment</figcaption>
+  </figure>
+
+  </section>
+
+  <section id="responsive">
+    <h2>Responsive Images</h2>
+    <p>Images should scale to fit the screen size.</p>
+
+    <figure>
+        <img src="images/responsive-image.jpg"
+        alt="Wide landscape photo that adapts to screen size"
+        style="max-width: 100%; height: auto;">
+        <figcaption>This image scales responsively on mobile and desktop</figcaption>
+    </figure>
+
+  </section>
+
+  <!-- ===== TODO 4: Create an image gallery with multiple figures ===== -->
+  <!-- Task: Add THREE <figure> elements (use any of the images below),
+       each with an <img> and <figcaption>. Create a gallery effect.
+       Suggestions for images:
+       1. src="images/gallery-1.jpg"
+          alt="Colorful painted wall with geometric patterns"
+       2. src="images/gallery-2.jpg"
+          alt="Coastal beach at sunset with golden light"
+       3. src="images/gallery-3.jpg"
+          alt="Urban street with modern architecture"
+  -->
+  <section id="gallery">
+    <h2>Image Gallery</h2>
+    <p>Build a gallery with multiple captioned images.</p>
+
+    <figure>
+      <img src="images/gallery-1.jpg"
+      alt="Colorful painted wall with geometric patterns"
+      style="max-width: 100%; height: auto;">
+      <figcaption>A Wall With Six Hands </figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/gallery-2.jpg"
+      alt="Coastal beach at sunset with golden light"
+      style="max-width: 100%; height: auto;">
+      <figcaption>A Photo of a Beach at Sunset</figcaption>
+    </figure>
+   
+    <figure>
+      <img src="images/gallery-3.jpg"
+      alt="Urban street with modern architecture"
+      style="max-width: 100%; height: auto;">
+      <figcaption> Tall Building in a City </figcaption>
+    </figure>
+    
+
+  </section>
+
+  <section id="practices">
+    <h2>Image Best Practices</h2>
+    <ul>
+      <li><strong>Alt text:</strong> Describe the image for screen readers and accessibility</li>
+      <li><strong>File format:</strong> Use JPG for photos, PNG for graphics with transparency, SVG for icons</li>
+      <li><strong>File size:</strong> Compress images to improve page loading speed</li>
+      <li><strong>Width/Height:</strong> Define dimensions to prevent layout shift when image loads</li>
+      <li><strong>Scaling:</strong> The style attribute can make images shrink to fit small screens (CSS, coming in Lesson 05)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Task complete! Review your alt text and captions for clarity.</p>
+  </footer>
+
+</body>
+</html>
