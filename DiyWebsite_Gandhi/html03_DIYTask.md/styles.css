@@ -1,4 +1,5 @@
 
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -145,4 +146,71 @@ img {
   background-color: #e2e8f0;
   font-weight: 600;
   color: #1d4ed8;
+}
+body {
+  margin: 0;
+}
+
+/* Keep the main area from stretching too wide, and center it */
+main {
+  max-width: 60rem;
+  margin: 0 auto;      /* auto left and right = centered */
+  padding: 2rem;
+}
+
+header, footer {
+  padding: 1rem 2rem;  /* 1rem top/bottom, 2rem left/right */
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+th, td {
+  padding: 0.5rem 1rem;
+}
+
+/* Links are inline. inline-block lets padding work on all sides. */
+nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #020da0;
+}
+
+/* Only while the mouse is on the link */
+nav a:hover {
+  background-color: #fffbfb;
+}
+
+header {
+  position: sticky;
+  top: 0;              /* stick at the top edge */
+  z-index: 10;         /* stay above the content under it */
+  background-color: white;
+}
+
+/* Each gallery figure becomes a card */
+figure {
+  display: inline-block;     /* side by side */
+  vertical-align: top;       /* line up the tops */
+  width: 18rem;
+  padding: 1rem;             /* space inside the card */
+  margin: 1rem;              /* space between cards */
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: white;
+}
+
+/* Keep each photo inside its card */
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* A hover effect on the cards */
+figure:hover {
+  background-color: #9a9b9e;
 }
