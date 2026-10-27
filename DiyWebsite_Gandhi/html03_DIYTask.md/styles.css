@@ -42,7 +42,7 @@ a {
 }
 
 .contact {
-  background-color: #eef7fc;
+  background-color: #15648f;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -79,7 +79,7 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  color: #2c3e50;
+  color: #a6b9cc;
   margin-top: 1.5em;
   border-bottom: 2px solid #3498db;
 }
